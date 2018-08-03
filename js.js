@@ -55,7 +55,7 @@ function moar(){
 				f.setAttribute('id','baidu');
 				f.setAttribute('method','get');
 				f.setAttribute('target','_blank');
-				f.setAttribute('action','http://www.baidu.com/s?');
+				f.setAttribute('action','https://www.baidu.com/s?');
 				var input = document.createElement('input'); 
 				input.setAttribute('type','hidden');
 				input.setAttribute('name','wd');
