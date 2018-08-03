@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<link href="style.css" rel="stylesheet" type="text/css">
+	<body>
+		<form id="search" onsubmit="moar();">
+			<div style="width:70%; margin:5% auto;">
+  				<input type="text" id="search_q" name="q" value="" autocomplete="off" autofocus placeholder="what are we searching for?" style="width:88%"><button type="button" onclick="moar();" style="width:7%;" >Find!</button>
+			</div>
+		</form>
+<div class="engine">
+			<form id="engines">
+				<div class="checkbox">
+					<input type="checkbox"	id="g_check"	name="g_check"	onclick="localStorage.setItem(this.name, this.checked );">
+				  	<label for="g_check">Google</label>
+				</div>
+				<div class="checkbox">
+					<input type="checkbox"	id="duck_check"	name="duck_check"	onclick="localStorage.setItem(this.name, this.checked );">
+				  	<label for="duck_check">DuckDuckGo</label>
+				</div>
+				<div class="checkbox">
+					<input type="checkbox"	id="bing_check"	name="bing_check"	onclick="localStorage.setItem(this.name, this.checked );">
+				  	<label for="bing_check">Bing</label>
+				</div>
+
+<div class="checkbox">
+					<input type="checkbox"	id="baidu_check"	name="baidu_check"	onclick="localStorage.setItem(this.name, this.checked );">
+				  	<label for="baidu_check">Baidu</label>
+				</div>
+			</form>
+		</div>
+   	</body>
+</html>
+<script src="js.js"></script>

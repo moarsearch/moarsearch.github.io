@@ -1,0 +1,84 @@
+* {
+    margin:0;
+    padding:0;
+    font:12pt Arial;
+}
+
+body {
+  background-color:#34495e;
+  background-color:#2c3e50;
+}
+
+
+input[type=text] {
+	padding:10px;
+	border:3px solid rgb(26, 188, 156);
+box-shadow:
+		1px 1px 0 rgb(22, 160, 133),
+		2px 2px 0 rgb(22, 160, 133),
+		3px 3px 0 rgb(22, 160, 133),
+		4px 4px 0 rgb(22, 160, 133),
+		5px 5px 0 rgb(22, 160, 133),
+		6px 6px 0 rgb(22, 160, 133),
+		7px 7px 0 rgb(22, 160, 133),
+		8px 8px 0 rgb(22, 160, 133),
+		9px 9px 0 rgb(22, 160, 133),
+		10px 10px 0 rgb(22, 160, 133);
+
+}
+
+button {
+	padding:10px 10px;
+	background-color:rgb(26, 188, 156);
+	color:white;
+	border:3px solid rgb(26, 188, 156);
+	box-shadow:
+		1px 1px 0 rgb(22, 160, 133),
+		2px 2px 0 rgb(22, 160, 133),
+		3px 3px 0 rgb(22, 160, 133),
+		4px 4px 0 rgb(22, 160, 133),
+		5px 5px 0 rgb(22, 160, 133),
+		6px 6px 0 rgb(22, 160, 133),
+		7px 7px 0 rgb(22, 160, 133),
+		8px 8px 0 rgb(22, 160, 133),
+		9px 9px 0 rgb(22, 160, 133),
+		10px 10px 0 rgb(22, 160, 133);
+}
+
+
+.checkbox input[type=checkbox] {
+  visibility: hidden;
+}
+
+.checkbox {
+  position: relative;
+  margin: 12px auto;
+  margin-left: 20px;
+}
+
+.checkbox label {
+  cursor: pointer;
+  padding-left: 2px;
+  margin-top: 0px;
+  color:white;
+}
+
+.checkbox label:after {
+  content: '';
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  border: solid 1px rgb(26, 188, 156);
+	
+}
+
+.checkbox label:hover::after {
+  background: rgba(22, 160, 133, 0.5);
+}
+
+.checkbox input[type=checkbox]:checked + label:after {
+  opacity: 1;
+  background: rgba(22, 160, 133, 0.5);
+}
