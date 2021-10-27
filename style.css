@@ -11,6 +11,7 @@ body {
 
 p {
 	color:white;
+	margin-bottom:8px;
 }
 
 input[type=text] {
